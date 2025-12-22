@@ -1,0 +1,339 @@
+[
+  {
+    "callsign": "Odin-Actual",
+    "rank": "Maj",
+    "role": "CO",
+    "squad": "ODIN_HQ",
+    "qualifications": [
+      "Zeus",
+      "Instructor",
+      "JTAC"
+    ],
+    "timezone": "Europe/London",
+    "status": "Active",
+    "joinedDate": "2023-09-03"
+  },
+  {
+    "callsign": "Odin-2",
+    "rank": "Capt",
+    "role": "XO / S3",
+    "squad": "ODIN_HQ",
+    "qualifications": [
+      "Instructor",
+      "Zeus"
+    ],
+    "timezone": "Europe/London",
+    "status": "Active",
+    "joinedDate": "2023-10-12"
+  },
+  {
+    "callsign": "Odin-6",
+    "rank": "Lt",
+    "role": "RTO",
+    "squad": "ODIN_HQ",
+    "qualifications": [
+      "UAV"
+    ],
+    "timezone": "Europe/London",
+    "status": "Active",
+    "joinedDate": "2024-02-20"
+  },
+  {
+    "callsign": "Odin-Medic",
+    "rank": "SSgt",
+    "role": "Medic",
+    "squad": "ODIN_HQ",
+    "qualifications": [
+      "ACE Medic",
+      "Instructor"
+    ],
+    "timezone": "Europe/London",
+    "status": "Active",
+    "joinedDate": "2024-03-14"
+  },
+  {
+    "callsign": "Freyja-Actual",
+    "rank": "Lt",
+    "role": "PL",
+    "squad": "FREYJA_PLT",
+    "qualifications": [
+      "Instructor",
+      "JTAC"
+    ],
+    "timezone": "Europe/London",
+    "status": "Active",
+    "joinedDate": "2024-01-05"
+  },
+  {
+    "callsign": "Freyja-2",
+    "rank": "Sgt",
+    "role": "PSG",
+    "squad": "FREYJA_PLT",
+    "qualifications": [
+      "Breacher"
+    ],
+    "timezone": "Europe/London",
+    "status": "Active",
+    "joinedDate": "2024-04-11"
+  },
+  {
+    "callsign": "Freyja-RTO",
+    "rank": "Cpl",
+    "role": "RTO",
+    "squad": "FREYJA_PLT",
+    "qualifications": [
+      "UAV"
+    ],
+    "timezone": "Europe/London",
+    "status": "Reserve",
+    "joinedDate": "2024-06-02"
+  },
+  {
+    "callsign": "JackRabbit-1",
+    "rank": "Sgt",
+    "role": "SL",
+    "squad": "JRAB_1SQD",
+    "qualifications": [
+      "Breacher"
+    ],
+    "timezone": "Europe/London",
+    "status": "Active",
+    "joinedDate": "2024-02-01"
+  },
+  {
+    "callsign": "JR-A1",
+    "rank": "Cpl",
+    "role": "TL",
+    "squad": "JRAB_1SQD",
+    "qualifications": [
+      "ACE CLS"
+    ],
+    "timezone": "Europe/London",
+    "status": "Active",
+    "joinedDate": "2024-03-09"
+  },
+  {
+    "callsign": "JR-A2",
+    "rank": "LCpl",
+    "role": "AR",
+    "squad": "JRAB_1SQD",
+    "qualifications": [
+      "Marksman"
+    ],
+    "timezone": "Europe/London",
+    "status": "Active",
+    "joinedDate": "2024-05-19"
+  },
+  {
+    "callsign": "JR-A3",
+    "rank": "Pte",
+    "role": "AAR",
+    "squad": "JRAB_1SQD",
+    "qualifications": [],
+    "timezone": "Europe/London",
+    "status": "LOA",
+    "joinedDate": "2024-08-07"
+  },
+  {
+    "callsign": "JR-B1",
+    "rank": "Cpl",
+    "role": "TL",
+    "squad": "JRAB_1SQD",
+    "qualifications": [
+      "Breacher"
+    ],
+    "timezone": "Europe/London",
+    "status": "Active",
+    "joinedDate": "2024-03-29"
+  },
+  {
+    "callsign": "JR-B2",
+    "rank": "LCpl",
+    "role": "Medic",
+    "squad": "JRAB_1SQD",
+    "qualifications": [
+      "ACE Medic"
+    ],
+    "timezone": "Europe/London",
+    "status": "Active",
+    "joinedDate": "2024-04-22"
+  },
+  {
+    "callsign": "JR-B3",
+    "rank": "Pte",
+    "role": "Rifleman",
+    "squad": "JRAB_1SQD",
+    "qualifications": [
+      "AT"
+    ],
+    "timezone": "Europe/London",
+    "status": "Active",
+    "joinedDate": "2024-07-10"
+  },
+  {
+    "callsign": "Hydra-Actual",
+    "rank": "Lt",
+    "role": "PL",
+    "squad": "HYDRA_PLT",
+    "qualifications": [
+      "Diver",
+      "Instructor"
+    ],
+    "timezone": "Europe/London",
+    "status": "Active",
+    "joinedDate": "2024-02-18"
+  },
+  {
+    "callsign": "Hydra-2",
+    "rank": "Sgt",
+    "role": "PSG",
+    "squad": "HYDRA_PLT",
+    "qualifications": [
+      "Diver",
+      "EOD"
+    ],
+    "timezone": "Europe/London",
+    "status": "Active",
+    "joinedDate": "2024-04-09"
+  },
+  {
+    "callsign": "Trident-1",
+    "rank": "Sgt",
+    "role": "SL",
+    "squad": "TRIDENT_1SQD",
+    "qualifications": [
+      "Diver",
+      "Breacher"
+    ],
+    "timezone": "Europe/London",
+    "status": "Active",
+    "joinedDate": "2024-03-03"
+  },
+  {
+    "callsign": "TR-A1",
+    "rank": "Cpl",
+    "role": "TL",
+    "squad": "TRIDENT_1SQD",
+    "qualifications": [
+      "Diver",
+      "ACE CLS"
+    ],
+    "timezone": "Europe/London",
+    "status": "Active",
+    "joinedDate": "2024-05-02"
+  },
+  {
+    "callsign": "TR-A2",
+    "rank": "LCpl",
+    "role": "AR",
+    "squad": "TRIDENT_1SQD",
+    "qualifications": [
+      "Diver"
+    ],
+    "timezone": "Europe/London",
+    "status": "Active",
+    "joinedDate": "2024-06-11"
+  },
+  {
+    "callsign": "TR-B1",
+    "rank": "Cpl",
+    "role": "TL",
+    "squad": "TRIDENT_1SQD",
+    "qualifications": [
+      "Diver"
+    ],
+    "timezone": "Europe/London",
+    "status": "Reserve",
+    "joinedDate": "2024-07-30"
+  },
+  {
+    "callsign": "TR-B2",
+    "rank": "LCpl",
+    "role": "Medic",
+    "squad": "TRIDENT_1SQD",
+    "qualifications": [
+      "Diver",
+      "ACE Medic"
+    ],
+    "timezone": "Europe/London",
+    "status": "Active",
+    "joinedDate": "2024-06-22"
+  },
+  {
+    "callsign": "Heimdall-1",
+    "rank": "SSgt",
+    "role": "SL",
+    "squad": "HEIMDALL_SRR",
+    "qualifications": [
+      "Recon",
+      "Marksman"
+    ],
+    "timezone": "Europe/London",
+    "status": "Active",
+    "joinedDate": "2024-02-28"
+  },
+  {
+    "callsign": "HM-A1",
+    "rank": "Cpl",
+    "role": "TL",
+    "squad": "HEIMDALL_SRR",
+    "qualifications": [
+      "Recon",
+      "UAV"
+    ],
+    "timezone": "Europe/London",
+    "status": "Active",
+    "joinedDate": "2024-04-17"
+  },
+  {
+    "callsign": "HM-A2",
+    "rank": "LCpl",
+    "role": "RTO",
+    "squad": "HEIMDALL_SRR",
+    "qualifications": [
+      "Recon"
+    ],
+    "timezone": "Europe/London",
+    "status": "Active",
+    "joinedDate": "2024-05-26"
+  },
+  {
+    "callsign": "HM-B1",
+    "rank": "Cpl",
+    "role": "Medic",
+    "squad": "HEIMDALL_SRR",
+    "qualifications": [
+      "ACE Medic",
+      "Recon"
+    ],
+    "timezone": "Europe/London",
+    "status": "Active",
+    "joinedDate": "2024-06-03"
+  },
+  {
+    "callsign": "Sierra-1",
+    "rank": "Flt Lt",
+    "role": "JTAC / Pilot",
+    "squad": "SIERRA_RAF",
+    "qualifications": [
+      "Pilot",
+      "JTAC",
+      "Instructor"
+    ],
+    "timezone": "Europe/London",
+    "status": "Active",
+    "joinedDate": "2023-12-20"
+  },
+  {
+    "callsign": "Sierra-2",
+    "rank": "Sgt",
+    "role": "RTO",
+    "squad": "SIERRA_RAF",
+    "qualifications": [
+      "JTAC"
+    ],
+    "timezone": "Europe/London",
+    "status": "Active",
+    "joinedDate": "2024-03-25"
+  }
+]

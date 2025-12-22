@@ -1,0 +1,2755 @@
+{
+  "ODIN_HQ": {
+    "modsRequired": [
+      "CBA_A3",
+      "ACE3",
+      "TFAR",
+      "UK3CB_BAF_Equipment",
+      "RHSUSAF",
+      "RHSAFRF"
+    ],
+    "aceNotes": "ACE Advanced Medical enabled. Odin staff may carry extra medical/admin items per mission.",
+    "tfarNotes": "Company net LR 70.0; monitor platoon nets as required.",
+    "roles": {
+      "SL": {
+        "weapons": {
+          "primary": "L119A2 (5.56) + Optic",
+          "secondary": "Glock 17",
+          "launcher": "None"
+        },
+        "gear": {
+          "uniform": "UKSF Combat Uniform (MTP)",
+          "vest": "Plate Carrier (MTP)",
+          "backpack": "Radio Pack",
+          "helmet": "Ops Core (Tan)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Mag x8",
+            "9mm Mag x2"
+          ],
+          "medical": [
+            "Bandage x10",
+            "Packing Bandage x6",
+            "Tourniquet x2",
+            "Morphine x2",
+            "Epinephrine x1",
+            "Saline 500ml x1",
+            "Splint x1"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)",
+            "Flashbang x2"
+          ],
+          "tools": [
+            "Binoculars/Rangefinder",
+            "MicroDAGR / GPS",
+            "IR Laser/Designator"
+          ],
+          "radios": [
+            "TFAR Short Range (Personal)",
+            "TFAR LR (if issued)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool",
+            "ACE Cable Tie x2"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "Command & Support baseline. Maintain consistent mags count with fireteam. Controls squad net; confirms ROE & PID."
+      },
+      "TL": {
+        "weapons": {
+          "primary": "L119A2 (5.56) + Optic",
+          "secondary": "Glock 17",
+          "launcher": "None"
+        },
+        "gear": {
+          "uniform": "UKSF Combat Uniform (MTP)",
+          "vest": "Plate Carrier (MTP)",
+          "backpack": "Assault Pack",
+          "helmet": "Ops Core (Tan)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Mag x8",
+            "9mm Mag x2"
+          ],
+          "medical": [
+            "Bandage x10",
+            "Packing Bandage x6",
+            "Tourniquet x2",
+            "Morphine x2",
+            "Epinephrine x1",
+            "Saline 500ml x1",
+            "Splint x1"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)",
+            "Flashbang x1"
+          ],
+          "tools": [
+            "Binoculars",
+            "GPS"
+          ],
+          "radios": [
+            "TFAR Short Range (Personal)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "Command & Support baseline. Maintain consistent mags count with fireteam. Leads fireteam manoeuvre and reports contacts."
+      },
+      "AR": {
+        "weapons": {
+          "primary": "L110A3 (5.56 LMG) + Optic",
+          "secondary": "Glock 17",
+          "launcher": "None"
+        },
+        "gear": {
+          "uniform": "UKSF Combat Uniform (MTP)",
+          "vest": "Plate Carrier (MTP)",
+          "backpack": "Ammo Pack",
+          "helmet": "Ops Core (Tan)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Belt x4",
+            "9mm Mag x2"
+          ],
+          "medical": [
+            "Bandage x10",
+            "Packing Bandage x6",
+            "Tourniquet x2",
+            "Morphine x2",
+            "Epinephrine x1",
+            "Saline 500ml x1",
+            "Splint x1"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)"
+          ],
+          "tools": [
+            "Bipod (if not integral)"
+          ],
+          "radios": [
+            "TFAR Short Range (Personal)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "Command & Support baseline. Maintain consistent mags count with fireteam. Establishes support-by-fire; conserve belts."
+      },
+      "AAR": {
+        "weapons": {
+          "primary": "L119A2 (5.56) + Optic",
+          "secondary": "Glock 17",
+          "launcher": "None"
+        },
+        "gear": {
+          "uniform": "UKSF Combat Uniform (MTP)",
+          "vest": "Plate Carrier (MTP)",
+          "backpack": "Ammo Pack",
+          "helmet": "Ops Core (Tan)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Mag x10",
+            "5.56 Belt x2 (for AR)",
+            "9mm Mag x2"
+          ],
+          "medical": [
+            "Bandage x10",
+            "Packing Bandage x6",
+            "Tourniquet x2",
+            "Morphine x2",
+            "Epinephrine x1",
+            "Saline 500ml x1",
+            "Splint x1"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)"
+          ],
+          "tools": [
+            "Spare barrel (if applicable)"
+          ],
+          "radios": [
+            "TFAR Short Range (Personal)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "Command & Support baseline. Maintain consistent mags count with fireteam. Feeds AR and covers reloads."
+      },
+      "Medic": {
+        "weapons": {
+          "primary": "L119A2 (5.56) + Optic",
+          "secondary": "Glock 17",
+          "launcher": "None"
+        },
+        "gear": {
+          "uniform": "UKSF Combat Uniform (MTP)",
+          "vest": "Plate Carrier (MTP)",
+          "backpack": "Medic Pack",
+          "helmet": "Ops Core (Tan)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Mag x6",
+            "9mm Mag x2"
+          ],
+          "medical": [
+            "Bandage x20",
+            "Packing Bandage x12",
+            "Tourniquet x6",
+            "Morphine x6",
+            "Epinephrine x6",
+            "Saline 500ml x6",
+            "Blood 500ml x2",
+            "Surgical Kit x1",
+            "Personal Aid Kit x1",
+            "Splint x6"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)",
+            "Smoke x2 (Red)"
+          ],
+          "tools": [
+            "Body bag x1"
+          ],
+          "radios": [
+            "TFAR Short Range (Personal)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool",
+            "ACE Medications (per SOP)"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "Command & Support baseline. Maintain consistent mags count with fireteam. Triage and CASEVAC coordinator."
+      },
+      "RTO": {
+        "weapons": {
+          "primary": "L119A2 (5.56) + Optic",
+          "secondary": "Glock 17",
+          "launcher": "None"
+        },
+        "gear": {
+          "uniform": "UKSF Combat Uniform (MTP)",
+          "vest": "Plate Carrier (MTP)",
+          "backpack": "Long Range Radio Pack",
+          "helmet": "Ops Core (Tan)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Mag x7",
+            "9mm Mag x2"
+          ],
+          "medical": [
+            "Bandage x10",
+            "Packing Bandage x6",
+            "Tourniquet x2",
+            "Morphine x2",
+            "Epinephrine x1",
+            "Saline 500ml x1",
+            "Splint x1"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)"
+          ],
+          "tools": [
+            "Spare batteries x2"
+          ],
+          "radios": [
+            "TFAR Long Range (Backpack)",
+            "TFAR Short Range (Personal)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "Command & Support baseline. Maintain consistent mags count with fireteam. Manages LR comms, relays to higher/air."
+      },
+      "AT": {
+        "weapons": {
+          "primary": "L119A2 (5.56) + Optic",
+          "secondary": "Glock 17",
+          "launcher": "NLAW (single-shot)"
+        },
+        "gear": {
+          "uniform": "UKSF Combat Uniform (MTP)",
+          "vest": "Plate Carrier (MTP)",
+          "backpack": "AT Pack",
+          "helmet": "Ops Core (Tan)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Mag x6",
+            "9mm Mag x2",
+            "NLAW x1"
+          ],
+          "medical": [
+            "Bandage x10",
+            "Packing Bandage x6",
+            "Tourniquet x2",
+            "Morphine x2",
+            "Epinephrine x1",
+            "Saline 500ml x1",
+            "Splint x1"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)"
+          ],
+          "tools": [
+            "Range card"
+          ],
+          "radios": [
+            "TFAR Short Range (Personal)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "Command & Support baseline. Maintain consistent mags count with fireteam. Engage armour only on SL/PL call unless imminent threat."
+      }
+    }
+  },
+  "FREYJA_PLT": {
+    "modsRequired": [
+      "CBA_A3",
+      "ACE3",
+      "TFAR",
+      "UK3CB_BAF_Equipment",
+      "RHSUSAF",
+      "RHSAFRF"
+    ],
+    "aceNotes": "Standard ACE settings. PL/PSG carry map tools and additional smokes.",
+    "tfarNotes": "Platoon net 55.0 LR/SR as assigned.",
+    "roles": {
+      "SL": {
+        "weapons": {
+          "primary": "L119A2 (5.56) + Optic",
+          "secondary": "Glock 17",
+          "launcher": "None"
+        },
+        "gear": {
+          "uniform": "UKSF Combat Uniform (MTP)",
+          "vest": "Plate Carrier (MTP)",
+          "backpack": "Radio Pack",
+          "helmet": "Ops Core (Tan)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Mag x8",
+            "9mm Mag x2"
+          ],
+          "medical": [
+            "Bandage x10",
+            "Packing Bandage x6",
+            "Tourniquet x2",
+            "Morphine x2",
+            "Epinephrine x1",
+            "Saline 500ml x1",
+            "Splint x1"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)",
+            "Flashbang x2"
+          ],
+          "tools": [
+            "Binoculars/Rangefinder",
+            "MicroDAGR / GPS",
+            "IR Laser/Designator"
+          ],
+          "radios": [
+            "TFAR Short Range (Personal)",
+            "TFAR LR (if issued)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool",
+            "ACE Cable Tie x2"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "SAS Platoon baseline. Maintain consistent mags count with fireteam. Controls squad net; confirms ROE & PID."
+      },
+      "TL": {
+        "weapons": {
+          "primary": "L119A2 (5.56) + Optic",
+          "secondary": "Glock 17",
+          "launcher": "None"
+        },
+        "gear": {
+          "uniform": "UKSF Combat Uniform (MTP)",
+          "vest": "Plate Carrier (MTP)",
+          "backpack": "Assault Pack",
+          "helmet": "Ops Core (Tan)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Mag x8",
+            "9mm Mag x2"
+          ],
+          "medical": [
+            "Bandage x10",
+            "Packing Bandage x6",
+            "Tourniquet x2",
+            "Morphine x2",
+            "Epinephrine x1",
+            "Saline 500ml x1",
+            "Splint x1"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)",
+            "Flashbang x1"
+          ],
+          "tools": [
+            "Binoculars",
+            "GPS"
+          ],
+          "radios": [
+            "TFAR Short Range (Personal)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "SAS Platoon baseline. Maintain consistent mags count with fireteam. Leads fireteam manoeuvre and reports contacts."
+      },
+      "AR": {
+        "weapons": {
+          "primary": "L110A3 (5.56 LMG) + Optic",
+          "secondary": "Glock 17",
+          "launcher": "None"
+        },
+        "gear": {
+          "uniform": "UKSF Combat Uniform (MTP)",
+          "vest": "Plate Carrier (MTP)",
+          "backpack": "Ammo Pack",
+          "helmet": "Ops Core (Tan)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Belt x4",
+            "9mm Mag x2"
+          ],
+          "medical": [
+            "Bandage x10",
+            "Packing Bandage x6",
+            "Tourniquet x2",
+            "Morphine x2",
+            "Epinephrine x1",
+            "Saline 500ml x1",
+            "Splint x1"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)"
+          ],
+          "tools": [
+            "Bipod (if not integral)"
+          ],
+          "radios": [
+            "TFAR Short Range (Personal)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "SAS Platoon baseline. Maintain consistent mags count with fireteam. Establishes support-by-fire; conserve belts."
+      },
+      "AAR": {
+        "weapons": {
+          "primary": "L119A2 (5.56) + Optic",
+          "secondary": "Glock 17",
+          "launcher": "None"
+        },
+        "gear": {
+          "uniform": "UKSF Combat Uniform (MTP)",
+          "vest": "Plate Carrier (MTP)",
+          "backpack": "Ammo Pack",
+          "helmet": "Ops Core (Tan)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Mag x10",
+            "5.56 Belt x2 (for AR)",
+            "9mm Mag x2"
+          ],
+          "medical": [
+            "Bandage x10",
+            "Packing Bandage x6",
+            "Tourniquet x2",
+            "Morphine x2",
+            "Epinephrine x1",
+            "Saline 500ml x1",
+            "Splint x1"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)"
+          ],
+          "tools": [
+            "Spare barrel (if applicable)"
+          ],
+          "radios": [
+            "TFAR Short Range (Personal)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "SAS Platoon baseline. Maintain consistent mags count with fireteam. Feeds AR and covers reloads."
+      },
+      "Medic": {
+        "weapons": {
+          "primary": "L119A2 (5.56) + Optic",
+          "secondary": "Glock 17",
+          "launcher": "None"
+        },
+        "gear": {
+          "uniform": "UKSF Combat Uniform (MTP)",
+          "vest": "Plate Carrier (MTP)",
+          "backpack": "Medic Pack",
+          "helmet": "Ops Core (Tan)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Mag x6",
+            "9mm Mag x2"
+          ],
+          "medical": [
+            "Bandage x20",
+            "Packing Bandage x12",
+            "Tourniquet x6",
+            "Morphine x6",
+            "Epinephrine x6",
+            "Saline 500ml x6",
+            "Blood 500ml x2",
+            "Surgical Kit x1",
+            "Personal Aid Kit x1",
+            "Splint x6"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)",
+            "Smoke x2 (Red)"
+          ],
+          "tools": [
+            "Body bag x1"
+          ],
+          "radios": [
+            "TFAR Short Range (Personal)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool",
+            "ACE Medications (per SOP)"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "SAS Platoon baseline. Maintain consistent mags count with fireteam. Triage and CASEVAC coordinator."
+      },
+      "RTO": {
+        "weapons": {
+          "primary": "L119A2 (5.56) + Optic",
+          "secondary": "Glock 17",
+          "launcher": "None"
+        },
+        "gear": {
+          "uniform": "UKSF Combat Uniform (MTP)",
+          "vest": "Plate Carrier (MTP)",
+          "backpack": "Long Range Radio Pack",
+          "helmet": "Ops Core (Tan)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Mag x7",
+            "9mm Mag x2"
+          ],
+          "medical": [
+            "Bandage x10",
+            "Packing Bandage x6",
+            "Tourniquet x2",
+            "Morphine x2",
+            "Epinephrine x1",
+            "Saline 500ml x1",
+            "Splint x1"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)"
+          ],
+          "tools": [
+            "Spare batteries x2"
+          ],
+          "radios": [
+            "TFAR Long Range (Backpack)",
+            "TFAR Short Range (Personal)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "SAS Platoon baseline. Maintain consistent mags count with fireteam. Manages LR comms, relays to higher/air."
+      },
+      "AT": {
+        "weapons": {
+          "primary": "L119A2 (5.56) + Optic",
+          "secondary": "Glock 17",
+          "launcher": "NLAW (single-shot)"
+        },
+        "gear": {
+          "uniform": "UKSF Combat Uniform (MTP)",
+          "vest": "Plate Carrier (MTP)",
+          "backpack": "AT Pack",
+          "helmet": "Ops Core (Tan)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Mag x6",
+            "9mm Mag x2",
+            "NLAW x1"
+          ],
+          "medical": [
+            "Bandage x10",
+            "Packing Bandage x6",
+            "Tourniquet x2",
+            "Morphine x2",
+            "Epinephrine x1",
+            "Saline 500ml x1",
+            "Splint x1"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)"
+          ],
+          "tools": [
+            "Range card"
+          ],
+          "radios": [
+            "TFAR Short Range (Personal)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "SAS Platoon baseline. Maintain consistent mags count with fireteam. Engage armour only on SL/PL call unless imminent threat."
+      }
+    }
+  },
+  "JRAB_1SQD": {
+    "modsRequired": [
+      "CBA_A3",
+      "ACE3",
+      "TFAR",
+      "UK3CB_BAF_Equipment",
+      "RHSUSAF",
+      "RHSAFRF"
+    ],
+    "aceNotes": "CLS items for all; Medic carries full kit.",
+    "tfarNotes": "Squad SR: 55.1. Fireteams use TFAR channels 1\u20134 for intra-team.",
+    "roles": {
+      "SL": {
+        "weapons": {
+          "primary": "L119A2 (5.56) + Optic",
+          "secondary": "Glock 17",
+          "launcher": "None"
+        },
+        "gear": {
+          "uniform": "UKSF Combat Uniform (MTP)",
+          "vest": "Plate Carrier (MTP)",
+          "backpack": "Radio Pack",
+          "helmet": "Ops Core (Tan)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Mag x8",
+            "9mm Mag x2"
+          ],
+          "medical": [
+            "Bandage x10",
+            "Packing Bandage x6",
+            "Tourniquet x2",
+            "Morphine x2",
+            "Epinephrine x1",
+            "Saline 500ml x1",
+            "Splint x1"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)",
+            "Flashbang x2"
+          ],
+          "tools": [
+            "Binoculars/Rangefinder",
+            "MicroDAGR / GPS",
+            "IR Laser/Designator"
+          ],
+          "radios": [
+            "TFAR Short Range (Personal)",
+            "TFAR LR (if issued)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool",
+            "ACE Cable Tie x2"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "SAS Assault baseline. Maintain consistent mags count with fireteam. Controls squad net; confirms ROE & PID."
+      },
+      "TL": {
+        "weapons": {
+          "primary": "L119A2 (5.56) + Optic",
+          "secondary": "Glock 17",
+          "launcher": "None"
+        },
+        "gear": {
+          "uniform": "UKSF Combat Uniform (MTP)",
+          "vest": "Plate Carrier (MTP)",
+          "backpack": "Assault Pack",
+          "helmet": "Ops Core (Tan)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Mag x8",
+            "9mm Mag x2"
+          ],
+          "medical": [
+            "Bandage x10",
+            "Packing Bandage x6",
+            "Tourniquet x2",
+            "Morphine x2",
+            "Epinephrine x1",
+            "Saline 500ml x1",
+            "Splint x1"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)",
+            "Flashbang x1"
+          ],
+          "tools": [
+            "Binoculars",
+            "GPS"
+          ],
+          "radios": [
+            "TFAR Short Range (Personal)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "SAS Assault baseline. Maintain consistent mags count with fireteam. Leads fireteam manoeuvre and reports contacts."
+      },
+      "AR": {
+        "weapons": {
+          "primary": "L110A3 (5.56 LMG) + Optic",
+          "secondary": "Glock 17",
+          "launcher": "None"
+        },
+        "gear": {
+          "uniform": "UKSF Combat Uniform (MTP)",
+          "vest": "Plate Carrier (MTP)",
+          "backpack": "Ammo Pack",
+          "helmet": "Ops Core (Tan)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Belt x4",
+            "9mm Mag x2"
+          ],
+          "medical": [
+            "Bandage x10",
+            "Packing Bandage x6",
+            "Tourniquet x2",
+            "Morphine x2",
+            "Epinephrine x1",
+            "Saline 500ml x1",
+            "Splint x1"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)"
+          ],
+          "tools": [
+            "Bipod (if not integral)"
+          ],
+          "radios": [
+            "TFAR Short Range (Personal)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "SAS Assault baseline. Maintain consistent mags count with fireteam. Establishes support-by-fire; conserve belts."
+      },
+      "AAR": {
+        "weapons": {
+          "primary": "L119A2 (5.56) + Optic",
+          "secondary": "Glock 17",
+          "launcher": "None"
+        },
+        "gear": {
+          "uniform": "UKSF Combat Uniform (MTP)",
+          "vest": "Plate Carrier (MTP)",
+          "backpack": "Ammo Pack",
+          "helmet": "Ops Core (Tan)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Mag x10",
+            "5.56 Belt x2 (for AR)",
+            "9mm Mag x2"
+          ],
+          "medical": [
+            "Bandage x10",
+            "Packing Bandage x6",
+            "Tourniquet x2",
+            "Morphine x2",
+            "Epinephrine x1",
+            "Saline 500ml x1",
+            "Splint x1"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)"
+          ],
+          "tools": [
+            "Spare barrel (if applicable)"
+          ],
+          "radios": [
+            "TFAR Short Range (Personal)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "SAS Assault baseline. Maintain consistent mags count with fireteam. Feeds AR and covers reloads."
+      },
+      "Medic": {
+        "weapons": {
+          "primary": "L119A2 (5.56) + Optic",
+          "secondary": "Glock 17",
+          "launcher": "None"
+        },
+        "gear": {
+          "uniform": "UKSF Combat Uniform (MTP)",
+          "vest": "Plate Carrier (MTP)",
+          "backpack": "Medic Pack",
+          "helmet": "Ops Core (Tan)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Mag x6",
+            "9mm Mag x2"
+          ],
+          "medical": [
+            "Bandage x20",
+            "Packing Bandage x12",
+            "Tourniquet x6",
+            "Morphine x6",
+            "Epinephrine x6",
+            "Saline 500ml x6",
+            "Blood 500ml x2",
+            "Surgical Kit x1",
+            "Personal Aid Kit x1",
+            "Splint x6"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)",
+            "Smoke x2 (Red)"
+          ],
+          "tools": [
+            "Body bag x1"
+          ],
+          "radios": [
+            "TFAR Short Range (Personal)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool",
+            "ACE Medications (per SOP)"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "SAS Assault baseline. Maintain consistent mags count with fireteam. Triage and CASEVAC coordinator."
+      },
+      "RTO": {
+        "weapons": {
+          "primary": "L119A2 (5.56) + Optic",
+          "secondary": "Glock 17",
+          "launcher": "None"
+        },
+        "gear": {
+          "uniform": "UKSF Combat Uniform (MTP)",
+          "vest": "Plate Carrier (MTP)",
+          "backpack": "Long Range Radio Pack",
+          "helmet": "Ops Core (Tan)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Mag x7",
+            "9mm Mag x2"
+          ],
+          "medical": [
+            "Bandage x10",
+            "Packing Bandage x6",
+            "Tourniquet x2",
+            "Morphine x2",
+            "Epinephrine x1",
+            "Saline 500ml x1",
+            "Splint x1"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)"
+          ],
+          "tools": [
+            "Spare batteries x2"
+          ],
+          "radios": [
+            "TFAR Long Range (Backpack)",
+            "TFAR Short Range (Personal)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "SAS Assault baseline. Maintain consistent mags count with fireteam. Manages LR comms, relays to higher/air."
+      },
+      "AT": {
+        "weapons": {
+          "primary": "L119A2 (5.56) + Optic",
+          "secondary": "Glock 17",
+          "launcher": "NLAW (single-shot)"
+        },
+        "gear": {
+          "uniform": "UKSF Combat Uniform (MTP)",
+          "vest": "Plate Carrier (MTP)",
+          "backpack": "AT Pack",
+          "helmet": "Ops Core (Tan)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Mag x6",
+            "9mm Mag x2",
+            "NLAW x1"
+          ],
+          "medical": [
+            "Bandage x10",
+            "Packing Bandage x6",
+            "Tourniquet x2",
+            "Morphine x2",
+            "Epinephrine x1",
+            "Saline 500ml x1",
+            "Splint x1"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)"
+          ],
+          "tools": [
+            "Range card"
+          ],
+          "radios": [
+            "TFAR Short Range (Personal)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "SAS Assault baseline. Maintain consistent mags count with fireteam. Engage armour only on SL/PL call unless imminent threat."
+      }
+    }
+  },
+  "HYDRA_PLT": {
+    "modsRequired": [
+      "CBA_A3",
+      "ACE3",
+      "TFAR",
+      "UK3CB_BAF_Equipment",
+      "RHSUSAF",
+      "RHSAFRF",
+      "VANILLA_DIVERS_PLACEHOLDER"
+    ],
+    "aceNotes": "Extra saline for cold water ops; add rebreather items if mission needs.",
+    "tfarNotes": "Platoon net 60.0. Consider underwater comms per mission.",
+    "roles": {
+      "SL": {
+        "weapons": {
+          "primary": "L119A2 (5.56) + Optic",
+          "secondary": "Glock 17",
+          "launcher": "None"
+        },
+        "gear": {
+          "uniform": "Wetsuit / Dry Suit (as mission requires)",
+          "vest": "Light Carrier (Maritime)",
+          "backpack": "Waterproof Pack",
+          "helmet": "High-cut Helmet (Maritime)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Mag x8",
+            "9mm Mag x2"
+          ],
+          "medical": [
+            "Bandage x10",
+            "Packing Bandage x6",
+            "Tourniquet x2",
+            "Morphine x2",
+            "Epinephrine x1",
+            "Saline 500ml x1",
+            "Splint x1"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)",
+            "Flashbang x2"
+          ],
+          "tools": [
+            "Binoculars/Rangefinder",
+            "MicroDAGR / GPS",
+            "IR Laser/Designator"
+          ],
+          "radios": [
+            "TFAR Short Range (Personal)",
+            "TFAR LR (if issued)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool",
+            "ACE Cable Tie x2"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "SBS Platoon baseline. Maintain consistent mags count with fireteam. Controls squad net; confirms ROE & PID."
+      },
+      "TL": {
+        "weapons": {
+          "primary": "L119A2 (5.56) + Optic",
+          "secondary": "Glock 17",
+          "launcher": "None"
+        },
+        "gear": {
+          "uniform": "Wetsuit / Dry Suit (as mission requires)",
+          "vest": "Light Carrier (Maritime)",
+          "backpack": "Assault Pack",
+          "helmet": "High-cut Helmet (Maritime)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Mag x8",
+            "9mm Mag x2"
+          ],
+          "medical": [
+            "Bandage x10",
+            "Packing Bandage x6",
+            "Tourniquet x2",
+            "Morphine x2",
+            "Epinephrine x1",
+            "Saline 500ml x1",
+            "Splint x1"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)",
+            "Flashbang x1"
+          ],
+          "tools": [
+            "Binoculars",
+            "GPS"
+          ],
+          "radios": [
+            "TFAR Short Range (Personal)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "SBS Platoon baseline. Maintain consistent mags count with fireteam. Leads fireteam manoeuvre and reports contacts."
+      },
+      "AR": {
+        "weapons": {
+          "primary": "L110A3 (5.56 LMG) + Optic",
+          "secondary": "Glock 17",
+          "launcher": "None"
+        },
+        "gear": {
+          "uniform": "Wetsuit / Dry Suit (as mission requires)",
+          "vest": "Light Carrier (Maritime)",
+          "backpack": "Ammo Pack",
+          "helmet": "High-cut Helmet (Maritime)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Belt x4",
+            "9mm Mag x2"
+          ],
+          "medical": [
+            "Bandage x10",
+            "Packing Bandage x6",
+            "Tourniquet x2",
+            "Morphine x2",
+            "Epinephrine x1",
+            "Saline 500ml x1",
+            "Splint x1"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)"
+          ],
+          "tools": [
+            "Bipod (if not integral)"
+          ],
+          "radios": [
+            "TFAR Short Range (Personal)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "SBS Platoon baseline. Maintain consistent mags count with fireteam. Establishes support-by-fire; conserve belts."
+      },
+      "AAR": {
+        "weapons": {
+          "primary": "L119A2 (5.56) + Optic",
+          "secondary": "Glock 17",
+          "launcher": "None"
+        },
+        "gear": {
+          "uniform": "Wetsuit / Dry Suit (as mission requires)",
+          "vest": "Light Carrier (Maritime)",
+          "backpack": "Ammo Pack",
+          "helmet": "High-cut Helmet (Maritime)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Mag x10",
+            "5.56 Belt x2 (for AR)",
+            "9mm Mag x2"
+          ],
+          "medical": [
+            "Bandage x10",
+            "Packing Bandage x6",
+            "Tourniquet x2",
+            "Morphine x2",
+            "Epinephrine x1",
+            "Saline 500ml x1",
+            "Splint x1"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)"
+          ],
+          "tools": [
+            "Spare barrel (if applicable)"
+          ],
+          "radios": [
+            "TFAR Short Range (Personal)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "SBS Platoon baseline. Maintain consistent mags count with fireteam. Feeds AR and covers reloads."
+      },
+      "Medic": {
+        "weapons": {
+          "primary": "L119A2 (5.56) + Optic",
+          "secondary": "Glock 17",
+          "launcher": "None"
+        },
+        "gear": {
+          "uniform": "Wetsuit / Dry Suit (as mission requires)",
+          "vest": "Light Carrier (Maritime)",
+          "backpack": "Medic Pack",
+          "helmet": "High-cut Helmet (Maritime)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Mag x6",
+            "9mm Mag x2"
+          ],
+          "medical": [
+            "Bandage x20",
+            "Packing Bandage x12",
+            "Tourniquet x6",
+            "Morphine x6",
+            "Epinephrine x6",
+            "Saline 500ml x6",
+            "Blood 500ml x2",
+            "Surgical Kit x1",
+            "Personal Aid Kit x1",
+            "Splint x6"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)",
+            "Smoke x2 (Red)"
+          ],
+          "tools": [
+            "Body bag x1"
+          ],
+          "radios": [
+            "TFAR Short Range (Personal)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool",
+            "ACE Medications (per SOP)"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "SBS Platoon baseline. Maintain consistent mags count with fireteam. Triage and CASEVAC coordinator."
+      },
+      "RTO": {
+        "weapons": {
+          "primary": "L119A2 (5.56) + Optic",
+          "secondary": "Glock 17",
+          "launcher": "None"
+        },
+        "gear": {
+          "uniform": "Wetsuit / Dry Suit (as mission requires)",
+          "vest": "Light Carrier (Maritime)",
+          "backpack": "Long Range Radio Pack",
+          "helmet": "High-cut Helmet (Maritime)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Mag x7",
+            "9mm Mag x2"
+          ],
+          "medical": [
+            "Bandage x10",
+            "Packing Bandage x6",
+            "Tourniquet x2",
+            "Morphine x2",
+            "Epinephrine x1",
+            "Saline 500ml x1",
+            "Splint x1"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)"
+          ],
+          "tools": [
+            "Spare batteries x2"
+          ],
+          "radios": [
+            "TFAR Long Range (Backpack)",
+            "TFAR Short Range (Personal)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "SBS Platoon baseline. Maintain consistent mags count with fireteam. Manages LR comms, relays to higher/air."
+      },
+      "AT": {
+        "weapons": {
+          "primary": "L119A2 (5.56) + Optic",
+          "secondary": "Glock 17",
+          "launcher": "NLAW (single-shot)"
+        },
+        "gear": {
+          "uniform": "Wetsuit / Dry Suit (as mission requires)",
+          "vest": "Light Carrier (Maritime)",
+          "backpack": "AT Pack",
+          "helmet": "High-cut Helmet (Maritime)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Mag x6",
+            "9mm Mag x2",
+            "NLAW x1"
+          ],
+          "medical": [
+            "Bandage x10",
+            "Packing Bandage x6",
+            "Tourniquet x2",
+            "Morphine x2",
+            "Epinephrine x1",
+            "Saline 500ml x1",
+            "Splint x1"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)"
+          ],
+          "tools": [
+            "Range card"
+          ],
+          "radios": [
+            "TFAR Short Range (Personal)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "SBS Platoon baseline. Maintain consistent mags count with fireteam. Engage armour only on SL/PL call unless imminent threat."
+      }
+    }
+  },
+  "TRIDENT_1SQD": {
+    "modsRequired": [
+      "CBA_A3",
+      "ACE3",
+      "TFAR",
+      "UK3CB_BAF_Equipment",
+      "RHSUSAF",
+      "RHSAFRF",
+      "VANILLA_DIVERS_PLACEHOLDER"
+    ],
+    "aceNotes": "Demolitions often issued. Ensure safety switches and timers per SOP.",
+    "tfarNotes": "Squad SR: 60.1. Keep LR traffic minimal during boarding actions.",
+    "roles": {
+      "SL": {
+        "weapons": {
+          "primary": "L119A2 (5.56) + Optic",
+          "secondary": "Glock 17",
+          "launcher": "None"
+        },
+        "gear": {
+          "uniform": "Wetsuit / Dry Suit (as mission requires)",
+          "vest": "Light Carrier (Maritime)",
+          "backpack": "Waterproof Pack",
+          "helmet": "High-cut Helmet (Maritime)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Mag x8",
+            "9mm Mag x2"
+          ],
+          "medical": [
+            "Bandage x10",
+            "Packing Bandage x6",
+            "Tourniquet x2",
+            "Morphine x2",
+            "Epinephrine x1",
+            "Saline 500ml x1",
+            "Splint x1"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)",
+            "Flashbang x2"
+          ],
+          "tools": [
+            "Binoculars/Rangefinder",
+            "MicroDAGR / GPS",
+            "IR Laser/Designator"
+          ],
+          "radios": [
+            "TFAR Short Range (Personal)",
+            "TFAR LR (if issued)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool",
+            "ACE Cable Tie x2"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "SBS Maritime Assault baseline. Maintain consistent mags count with fireteam. Controls squad net; confirms ROE & PID."
+      },
+      "TL": {
+        "weapons": {
+          "primary": "L119A2 (5.56) + Optic",
+          "secondary": "Glock 17",
+          "launcher": "None"
+        },
+        "gear": {
+          "uniform": "Wetsuit / Dry Suit (as mission requires)",
+          "vest": "Light Carrier (Maritime)",
+          "backpack": "Assault Pack",
+          "helmet": "High-cut Helmet (Maritime)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Mag x8",
+            "9mm Mag x2"
+          ],
+          "medical": [
+            "Bandage x10",
+            "Packing Bandage x6",
+            "Tourniquet x2",
+            "Morphine x2",
+            "Epinephrine x1",
+            "Saline 500ml x1",
+            "Splint x1"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)",
+            "Flashbang x1"
+          ],
+          "tools": [
+            "Binoculars",
+            "GPS"
+          ],
+          "radios": [
+            "TFAR Short Range (Personal)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "SBS Maritime Assault baseline. Maintain consistent mags count with fireteam. Leads fireteam manoeuvre and reports contacts."
+      },
+      "AR": {
+        "weapons": {
+          "primary": "L110A3 (5.56 LMG) + Optic",
+          "secondary": "Glock 17",
+          "launcher": "None"
+        },
+        "gear": {
+          "uniform": "Wetsuit / Dry Suit (as mission requires)",
+          "vest": "Light Carrier (Maritime)",
+          "backpack": "Ammo Pack",
+          "helmet": "High-cut Helmet (Maritime)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Belt x4",
+            "9mm Mag x2"
+          ],
+          "medical": [
+            "Bandage x10",
+            "Packing Bandage x6",
+            "Tourniquet x2",
+            "Morphine x2",
+            "Epinephrine x1",
+            "Saline 500ml x1",
+            "Splint x1"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)"
+          ],
+          "tools": [
+            "Bipod (if not integral)"
+          ],
+          "radios": [
+            "TFAR Short Range (Personal)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "SBS Maritime Assault baseline. Maintain consistent mags count with fireteam. Establishes support-by-fire; conserve belts."
+      },
+      "AAR": {
+        "weapons": {
+          "primary": "L119A2 (5.56) + Optic",
+          "secondary": "Glock 17",
+          "launcher": "None"
+        },
+        "gear": {
+          "uniform": "Wetsuit / Dry Suit (as mission requires)",
+          "vest": "Light Carrier (Maritime)",
+          "backpack": "Ammo Pack",
+          "helmet": "High-cut Helmet (Maritime)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Mag x10",
+            "5.56 Belt x2 (for AR)",
+            "9mm Mag x2"
+          ],
+          "medical": [
+            "Bandage x10",
+            "Packing Bandage x6",
+            "Tourniquet x2",
+            "Morphine x2",
+            "Epinephrine x1",
+            "Saline 500ml x1",
+            "Splint x1"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)"
+          ],
+          "tools": [
+            "Spare barrel (if applicable)"
+          ],
+          "radios": [
+            "TFAR Short Range (Personal)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "SBS Maritime Assault baseline. Maintain consistent mags count with fireteam. Feeds AR and covers reloads."
+      },
+      "Medic": {
+        "weapons": {
+          "primary": "L119A2 (5.56) + Optic",
+          "secondary": "Glock 17",
+          "launcher": "None"
+        },
+        "gear": {
+          "uniform": "Wetsuit / Dry Suit (as mission requires)",
+          "vest": "Light Carrier (Maritime)",
+          "backpack": "Medic Pack",
+          "helmet": "High-cut Helmet (Maritime)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Mag x6",
+            "9mm Mag x2"
+          ],
+          "medical": [
+            "Bandage x20",
+            "Packing Bandage x12",
+            "Tourniquet x6",
+            "Morphine x6",
+            "Epinephrine x6",
+            "Saline 500ml x6",
+            "Blood 500ml x2",
+            "Surgical Kit x1",
+            "Personal Aid Kit x1",
+            "Splint x6"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)",
+            "Smoke x2 (Red)"
+          ],
+          "tools": [
+            "Body bag x1"
+          ],
+          "radios": [
+            "TFAR Short Range (Personal)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool",
+            "ACE Medications (per SOP)"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "SBS Maritime Assault baseline. Maintain consistent mags count with fireteam. Triage and CASEVAC coordinator."
+      },
+      "RTO": {
+        "weapons": {
+          "primary": "L119A2 (5.56) + Optic",
+          "secondary": "Glock 17",
+          "launcher": "None"
+        },
+        "gear": {
+          "uniform": "Wetsuit / Dry Suit (as mission requires)",
+          "vest": "Light Carrier (Maritime)",
+          "backpack": "Long Range Radio Pack",
+          "helmet": "High-cut Helmet (Maritime)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Mag x7",
+            "9mm Mag x2"
+          ],
+          "medical": [
+            "Bandage x10",
+            "Packing Bandage x6",
+            "Tourniquet x2",
+            "Morphine x2",
+            "Epinephrine x1",
+            "Saline 500ml x1",
+            "Splint x1"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)"
+          ],
+          "tools": [
+            "Spare batteries x2"
+          ],
+          "radios": [
+            "TFAR Long Range (Backpack)",
+            "TFAR Short Range (Personal)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "SBS Maritime Assault baseline. Maintain consistent mags count with fireteam. Manages LR comms, relays to higher/air."
+      },
+      "AT": {
+        "weapons": {
+          "primary": "L119A2 (5.56) + Optic",
+          "secondary": "Glock 17",
+          "launcher": "NLAW (single-shot)"
+        },
+        "gear": {
+          "uniform": "Wetsuit / Dry Suit (as mission requires)",
+          "vest": "Light Carrier (Maritime)",
+          "backpack": "AT Pack",
+          "helmet": "High-cut Helmet (Maritime)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Mag x6",
+            "9mm Mag x2",
+            "NLAW x1"
+          ],
+          "medical": [
+            "Bandage x10",
+            "Packing Bandage x6",
+            "Tourniquet x2",
+            "Morphine x2",
+            "Epinephrine x1",
+            "Saline 500ml x1",
+            "Splint x1"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)"
+          ],
+          "tools": [
+            "Range card"
+          ],
+          "radios": [
+            "TFAR Short Range (Personal)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "SBS Maritime Assault baseline. Maintain consistent mags count with fireteam. Engage armour only on SL/PL call unless imminent threat."
+      }
+    }
+  },
+  "HEIMDALL_SRR": {
+    "modsRequired": [
+      "CBA_A3",
+      "ACE3",
+      "TFAR",
+      "UK3CB_BAF_Equipment",
+      "RHSUSAF",
+      "RHSAFRF"
+    ],
+    "aceNotes": "Recon may use suppressed weapons and extra optics.",
+    "tfarNotes": "Recon net 52.0; maintain comms discipline and short transmissions.",
+    "roles": {
+      "SL": {
+        "weapons": {
+          "primary": "L119A2 (5.56) + Suppressor + Optic",
+          "secondary": "Glock 17",
+          "launcher": "None"
+        },
+        "gear": {
+          "uniform": "UKSF Combat Uniform (MTP)",
+          "vest": "Plate Carrier (MTP)",
+          "backpack": "Radio Pack",
+          "helmet": "Ops Core (Tan)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Mag x8",
+            "9mm Mag x2"
+          ],
+          "medical": [
+            "Bandage x10",
+            "Packing Bandage x6",
+            "Tourniquet x2",
+            "Morphine x2",
+            "Epinephrine x1",
+            "Saline 500ml x1",
+            "Splint x1"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)",
+            "Flashbang x2"
+          ],
+          "tools": [
+            "Binoculars/Rangefinder",
+            "MicroDAGR / GPS",
+            "IR Laser/Designator"
+          ],
+          "radios": [
+            "TFAR Short Range (Personal)",
+            "TFAR LR (if issued)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool",
+            "ACE Cable Tie x2"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "SRR Recon baseline. Maintain consistent mags count with fireteam. Prioritise low profile, suppressed weapons. Controls squad net; confirms ROE & PID."
+      },
+      "TL": {
+        "weapons": {
+          "primary": "L119A2 (5.56) + Suppressor + Optic",
+          "secondary": "Glock 17",
+          "launcher": "None"
+        },
+        "gear": {
+          "uniform": "UKSF Combat Uniform (MTP)",
+          "vest": "Plate Carrier (MTP)",
+          "backpack": "Assault Pack",
+          "helmet": "Ops Core (Tan)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Mag x8",
+            "9mm Mag x2"
+          ],
+          "medical": [
+            "Bandage x10",
+            "Packing Bandage x6",
+            "Tourniquet x2",
+            "Morphine x2",
+            "Epinephrine x1",
+            "Saline 500ml x1",
+            "Splint x1"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)",
+            "Flashbang x1"
+          ],
+          "tools": [
+            "Binoculars",
+            "GPS"
+          ],
+          "radios": [
+            "TFAR Short Range (Personal)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "SRR Recon baseline. Maintain consistent mags count with fireteam. Prioritise low profile, suppressed weapons. Leads fireteam manoeuvre and reports contacts."
+      },
+      "AR": {
+        "weapons": {
+          "primary": "L110A3 (5.56 LMG) + Optic",
+          "secondary": "Glock 17",
+          "launcher": "None"
+        },
+        "gear": {
+          "uniform": "UKSF Combat Uniform (MTP)",
+          "vest": "Plate Carrier (MTP)",
+          "backpack": "Ammo Pack",
+          "helmet": "Ops Core (Tan)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Belt x4",
+            "9mm Mag x2"
+          ],
+          "medical": [
+            "Bandage x10",
+            "Packing Bandage x6",
+            "Tourniquet x2",
+            "Morphine x2",
+            "Epinephrine x1",
+            "Saline 500ml x1",
+            "Splint x1"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)"
+          ],
+          "tools": [
+            "Bipod (if not integral)"
+          ],
+          "radios": [
+            "TFAR Short Range (Personal)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "SRR Recon baseline. Maintain consistent mags count with fireteam. Prioritise low profile, suppressed weapons. Establishes support-by-fire; conserve belts."
+      },
+      "AAR": {
+        "weapons": {
+          "primary": "L119A2 (5.56) + Suppressor + Optic",
+          "secondary": "Glock 17",
+          "launcher": "None"
+        },
+        "gear": {
+          "uniform": "UKSF Combat Uniform (MTP)",
+          "vest": "Plate Carrier (MTP)",
+          "backpack": "Ammo Pack",
+          "helmet": "Ops Core (Tan)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Mag x10",
+            "5.56 Belt x2 (for AR)",
+            "9mm Mag x2"
+          ],
+          "medical": [
+            "Bandage x10",
+            "Packing Bandage x6",
+            "Tourniquet x2",
+            "Morphine x2",
+            "Epinephrine x1",
+            "Saline 500ml x1",
+            "Splint x1"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)"
+          ],
+          "tools": [
+            "Spare barrel (if applicable)"
+          ],
+          "radios": [
+            "TFAR Short Range (Personal)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "SRR Recon baseline. Maintain consistent mags count with fireteam. Prioritise low profile, suppressed weapons. Feeds AR and covers reloads."
+      },
+      "Medic": {
+        "weapons": {
+          "primary": "L119A2 (5.56) + Suppressor + Optic",
+          "secondary": "Glock 17",
+          "launcher": "None"
+        },
+        "gear": {
+          "uniform": "UKSF Combat Uniform (MTP)",
+          "vest": "Plate Carrier (MTP)",
+          "backpack": "Medic Pack",
+          "helmet": "Ops Core (Tan)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Mag x6",
+            "9mm Mag x2"
+          ],
+          "medical": [
+            "Bandage x20",
+            "Packing Bandage x12",
+            "Tourniquet x6",
+            "Morphine x6",
+            "Epinephrine x6",
+            "Saline 500ml x6",
+            "Blood 500ml x2",
+            "Surgical Kit x1",
+            "Personal Aid Kit x1",
+            "Splint x6"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)",
+            "Smoke x2 (Red)"
+          ],
+          "tools": [
+            "Body bag x1"
+          ],
+          "radios": [
+            "TFAR Short Range (Personal)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool",
+            "ACE Medications (per SOP)"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "SRR Recon baseline. Maintain consistent mags count with fireteam. Prioritise low profile, suppressed weapons. Triage and CASEVAC coordinator."
+      },
+      "RTO": {
+        "weapons": {
+          "primary": "L119A2 (5.56) + Suppressor + Optic",
+          "secondary": "Glock 17",
+          "launcher": "None"
+        },
+        "gear": {
+          "uniform": "UKSF Combat Uniform (MTP)",
+          "vest": "Plate Carrier (MTP)",
+          "backpack": "Long Range Radio Pack",
+          "helmet": "Ops Core (Tan)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Mag x7",
+            "9mm Mag x2"
+          ],
+          "medical": [
+            "Bandage x10",
+            "Packing Bandage x6",
+            "Tourniquet x2",
+            "Morphine x2",
+            "Epinephrine x1",
+            "Saline 500ml x1",
+            "Splint x1"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)"
+          ],
+          "tools": [
+            "Spare batteries x2"
+          ],
+          "radios": [
+            "TFAR Long Range (Backpack)",
+            "TFAR Short Range (Personal)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "SRR Recon baseline. Maintain consistent mags count with fireteam. Prioritise low profile, suppressed weapons. Manages LR comms, relays to higher/air."
+      },
+      "AT": {
+        "weapons": {
+          "primary": "L119A2 (5.56) + Suppressor + Optic",
+          "secondary": "Glock 17",
+          "launcher": "NLAW (single-shot)"
+        },
+        "gear": {
+          "uniform": "UKSF Combat Uniform (MTP)",
+          "vest": "Plate Carrier (MTP)",
+          "backpack": "AT Pack",
+          "helmet": "Ops Core (Tan)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Mag x6",
+            "9mm Mag x2",
+            "NLAW x1"
+          ],
+          "medical": [
+            "Bandage x10",
+            "Packing Bandage x6",
+            "Tourniquet x2",
+            "Morphine x2",
+            "Epinephrine x1",
+            "Saline 500ml x1",
+            "Splint x1"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)"
+          ],
+          "tools": [
+            "Range card"
+          ],
+          "radios": [
+            "TFAR Short Range (Personal)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "SRR Recon baseline. Maintain consistent mags count with fireteam. Prioritise low profile, suppressed weapons. Engage armour only on SL/PL call unless imminent threat."
+      }
+    }
+  },
+  "SIERRA_RAF": {
+    "modsRequired": [
+      "CBA_A3",
+      "ACE3",
+      "TFAR",
+      "UK3CB_BAF_Equipment",
+      "RHSUSAF",
+      "RHSAFRF"
+    ],
+    "aceNotes": "Aircrew use ACE hearing protection and GPS tools; JTAC carries designator.",
+    "tfarNotes": "Air net 75.0 LR. JTAC monitors ground net as assigned.",
+    "roles": {
+      "SL": {
+        "weapons": {
+          "primary": "L119A2 (5.56) + Optic",
+          "secondary": "Glock 17",
+          "launcher": "None"
+        },
+        "gear": {
+          "uniform": "UKSF Combat Uniform (MTP)",
+          "vest": "Plate Carrier (MTP)",
+          "backpack": "Radio Pack",
+          "helmet": "Ops Core (Tan)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Mag x8",
+            "9mm Mag x2"
+          ],
+          "medical": [
+            "Bandage x10",
+            "Packing Bandage x6",
+            "Tourniquet x2",
+            "Morphine x2",
+            "Epinephrine x1",
+            "Saline 500ml x1",
+            "Splint x1"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)",
+            "Flashbang x2"
+          ],
+          "tools": [
+            "Binoculars/Rangefinder",
+            "MicroDAGR / GPS",
+            "IR Laser/Designator"
+          ],
+          "radios": [
+            "TFAR Short Range (Personal)",
+            "TFAR LR (if issued)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool",
+            "ACE Cable Tie x2"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "RAF Detachment baseline. Maintain consistent mags count with fireteam. Coordinate with JTAC & air net. Controls squad net; confirms ROE & PID."
+      },
+      "TL": {
+        "weapons": {
+          "primary": "L119A2 (5.56) + Optic",
+          "secondary": "Glock 17",
+          "launcher": "None"
+        },
+        "gear": {
+          "uniform": "UKSF Combat Uniform (MTP)",
+          "vest": "Plate Carrier (MTP)",
+          "backpack": "Assault Pack",
+          "helmet": "Ops Core (Tan)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Mag x8",
+            "9mm Mag x2"
+          ],
+          "medical": [
+            "Bandage x10",
+            "Packing Bandage x6",
+            "Tourniquet x2",
+            "Morphine x2",
+            "Epinephrine x1",
+            "Saline 500ml x1",
+            "Splint x1"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)",
+            "Flashbang x1"
+          ],
+          "tools": [
+            "Binoculars",
+            "GPS"
+          ],
+          "radios": [
+            "TFAR Short Range (Personal)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "RAF Detachment baseline. Maintain consistent mags count with fireteam. Coordinate with JTAC & air net. Leads fireteam manoeuvre and reports contacts."
+      },
+      "AR": {
+        "weapons": {
+          "primary": "L110A3 (5.56 LMG) + Optic",
+          "secondary": "Glock 17",
+          "launcher": "None"
+        },
+        "gear": {
+          "uniform": "UKSF Combat Uniform (MTP)",
+          "vest": "Plate Carrier (MTP)",
+          "backpack": "Ammo Pack",
+          "helmet": "Ops Core (Tan)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Belt x4",
+            "9mm Mag x2"
+          ],
+          "medical": [
+            "Bandage x10",
+            "Packing Bandage x6",
+            "Tourniquet x2",
+            "Morphine x2",
+            "Epinephrine x1",
+            "Saline 500ml x1",
+            "Splint x1"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)"
+          ],
+          "tools": [
+            "Bipod (if not integral)"
+          ],
+          "radios": [
+            "TFAR Short Range (Personal)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "RAF Detachment baseline. Maintain consistent mags count with fireteam. Coordinate with JTAC & air net. Establishes support-by-fire; conserve belts."
+      },
+      "AAR": {
+        "weapons": {
+          "primary": "L119A2 (5.56) + Optic",
+          "secondary": "Glock 17",
+          "launcher": "None"
+        },
+        "gear": {
+          "uniform": "UKSF Combat Uniform (MTP)",
+          "vest": "Plate Carrier (MTP)",
+          "backpack": "Ammo Pack",
+          "helmet": "Ops Core (Tan)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Mag x10",
+            "5.56 Belt x2 (for AR)",
+            "9mm Mag x2"
+          ],
+          "medical": [
+            "Bandage x10",
+            "Packing Bandage x6",
+            "Tourniquet x2",
+            "Morphine x2",
+            "Epinephrine x1",
+            "Saline 500ml x1",
+            "Splint x1"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)"
+          ],
+          "tools": [
+            "Spare barrel (if applicable)"
+          ],
+          "radios": [
+            "TFAR Short Range (Personal)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "RAF Detachment baseline. Maintain consistent mags count with fireteam. Coordinate with JTAC & air net. Feeds AR and covers reloads."
+      },
+      "Medic": {
+        "weapons": {
+          "primary": "L119A2 (5.56) + Optic",
+          "secondary": "Glock 17",
+          "launcher": "None"
+        },
+        "gear": {
+          "uniform": "UKSF Combat Uniform (MTP)",
+          "vest": "Plate Carrier (MTP)",
+          "backpack": "Medic Pack",
+          "helmet": "Ops Core (Tan)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Mag x6",
+            "9mm Mag x2"
+          ],
+          "medical": [
+            "Bandage x20",
+            "Packing Bandage x12",
+            "Tourniquet x6",
+            "Morphine x6",
+            "Epinephrine x6",
+            "Saline 500ml x6",
+            "Blood 500ml x2",
+            "Surgical Kit x1",
+            "Personal Aid Kit x1",
+            "Splint x6"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)",
+            "Smoke x2 (Red)"
+          ],
+          "tools": [
+            "Body bag x1"
+          ],
+          "radios": [
+            "TFAR Short Range (Personal)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool",
+            "ACE Medications (per SOP)"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "RAF Detachment baseline. Maintain consistent mags count with fireteam. Coordinate with JTAC & air net. Triage and CASEVAC coordinator."
+      },
+      "RTO": {
+        "weapons": {
+          "primary": "L119A2 (5.56) + Optic",
+          "secondary": "Glock 17",
+          "launcher": "None"
+        },
+        "gear": {
+          "uniform": "UKSF Combat Uniform (MTP)",
+          "vest": "Plate Carrier (MTP)",
+          "backpack": "Long Range Radio Pack",
+          "helmet": "Ops Core (Tan)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Mag x7",
+            "9mm Mag x2"
+          ],
+          "medical": [
+            "Bandage x10",
+            "Packing Bandage x6",
+            "Tourniquet x2",
+            "Morphine x2",
+            "Epinephrine x1",
+            "Saline 500ml x1",
+            "Splint x1"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)"
+          ],
+          "tools": [
+            "Spare batteries x2"
+          ],
+          "radios": [
+            "TFAR Long Range (Backpack)",
+            "TFAR Short Range (Personal)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "RAF Detachment baseline. Maintain consistent mags count with fireteam. Coordinate with JTAC & air net. Manages LR comms, relays to higher/air."
+      },
+      "AT": {
+        "weapons": {
+          "primary": "L119A2 (5.56) + Optic",
+          "secondary": "Glock 17",
+          "launcher": "NLAW (single-shot)"
+        },
+        "gear": {
+          "uniform": "UKSF Combat Uniform (MTP)",
+          "vest": "Plate Carrier (MTP)",
+          "backpack": "AT Pack",
+          "helmet": "Ops Core (Tan)"
+        },
+        "items": {
+          "ammo": [
+            "5.56 Mag x6",
+            "9mm Mag x2",
+            "NLAW x1"
+          ],
+          "medical": [
+            "Bandage x10",
+            "Packing Bandage x6",
+            "Tourniquet x2",
+            "Morphine x2",
+            "Epinephrine x1",
+            "Saline 500ml x1",
+            "Splint x1"
+          ],
+          "grenades": [
+            "Frag x2",
+            "Smoke x2 (White)",
+            "Smoke x1 (Green)"
+          ],
+          "tools": [
+            "Range card"
+          ],
+          "radios": [
+            "TFAR Short Range (Personal)"
+          ],
+          "ace": [
+            "Map Tools",
+            "Cable Tie x2",
+            "Earplugs",
+            "ACE Entrenching Tool"
+          ],
+          "nightGear": [
+            "NVG",
+            "IR Strobe",
+            "Chemlight x2",
+            "Flashlight"
+          ]
+        },
+        "notes": "RAF Detachment baseline. Maintain consistent mags count with fireteam. Coordinate with JTAC & air net. Engage armour only on SL/PL call unless imminent threat."
+      }
+    }
+  }
+}

@@ -1,0 +1,340 @@
+{
+  "id": "LHCO",
+  "name": "UKSOCOM Lionheart Company",
+  "type": "Company",
+  "leader": {
+    "callsign": "Odin-Actual",
+    "name": "Maj. 'Viking' Harrow",
+    "role": "Company Commander"
+  },
+  "comms": {
+    "primary": "SR-1 (Long Range)",
+    "secondary": "SR-2",
+    "notes": "TFAR: Company net on 70 MHz, platoons on 50\u201360 MHz"
+  },
+  "description": "Joint UKSF-focused milsim unit with emphasis on realism, comms discipline, and mission planning.",
+  "children": [
+    {
+      "id": "ODIN_HQ",
+      "name": "Lionheart Company HQ \"Odin\"",
+      "type": "HQ",
+      "leader": {
+        "callsign": "Odin-Actual",
+        "name": "Maj. 'Viking' Harrow",
+        "role": "Company Commander"
+      },
+      "comms": {
+        "primary": "70.0",
+        "secondary": "70.5",
+        "notes": "Company net (LR)"
+      },
+      "description": "Company command, staff, and enabling support. Coordinates joint operations and standards.",
+      "tasks": [
+        "Command & control",
+        "Mission approval",
+        "Intel & planning",
+        "Logistics coordination"
+      ],
+      "children": [
+        {
+          "id": "ODIN_HQ_STAFF",
+          "name": "Odin Staff Cell",
+          "type": "Section",
+          "leader": {
+            "callsign": "Odin-2",
+            "name": "Capt. 'Rook' Bell",
+            "role": "XO / S3"
+          },
+          "comms": {
+            "primary": "70.1",
+            "secondary": "70.6",
+            "notes": "Staff net"
+          },
+          "description": "Planning, operations, comms management, and documentation.",
+          "tasks": [
+            "OPORD production",
+            "Comms plan",
+            "Training schedule",
+            "AAR collection"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "FREYJA_PLT",
+      "name": "SAS Platoon \"Freyja\"",
+      "type": "Platoon",
+      "leader": {
+        "callsign": "Freyja-Actual",
+        "name": "Lt. 'Mantis' Keane",
+        "role": "Platoon Commander"
+      },
+      "comms": {
+        "primary": "55.0",
+        "secondary": "55.5",
+        "notes": "SAS platoon net"
+      },
+      "description": "SAS platoon element for direct action raids and high-tempo assault missions.",
+      "tasks": [
+        "Direct action",
+        "HVT capture/kill",
+        "Urban assault",
+        "Vehicle interdiction"
+      ],
+      "children": [
+        {
+          "id": "JRAB_1SQD",
+          "name": "SAS 1st Squad \"Jack Rabbit\"",
+          "type": "Squad",
+          "leader": {
+            "callsign": "JackRabbit-1",
+            "name": "Sgt. 'Pike' Rowan",
+            "role": "Squad Leader"
+          },
+          "comms": {
+            "primary": "55.1",
+            "secondary": "55.6",
+            "notes": "Squad net (SR)"
+          },
+          "description": "Assault squad with adaptable fireteams for CQB and mobile operations.",
+          "tasks": [
+            "Assault",
+            "Breach & clear",
+            "Security",
+            "Support-by-fire"
+          ],
+          "children": [
+            {
+              "id": "JRAB_AFT",
+              "name": "Alpha Fireteam",
+              "type": "Fireteam",
+              "leader": {
+                "callsign": "JR-A1",
+                "name": "Cpl. 'Frost' Alder",
+                "role": "Team Leader"
+              },
+              "comms": {
+                "primary": "343 Ch 1",
+                "secondary": "343 Ch 2",
+                "notes": "TFAR SR team comms"
+              },
+              "description": "Primary assault team.",
+              "tasks": [
+                "Entry",
+                "Room clearing",
+                "Point security"
+              ],
+              "children": []
+            },
+            {
+              "id": "JRAB_BFT",
+              "name": "Bravo Fireteam",
+              "type": "Fireteam",
+              "leader": {
+                "callsign": "JR-B1",
+                "name": "Cpl. 'Bishop' Lane",
+                "role": "Team Leader"
+              },
+              "comms": {
+                "primary": "343 Ch 3",
+                "secondary": "343 Ch 4",
+                "notes": "TFAR SR team comms"
+              },
+              "description": "Support and flank security team.",
+              "tasks": [
+                "Support-by-fire",
+                "Flank",
+                "Rear security"
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "HYDRA_PLT",
+      "name": "SBS Platoon \"Hydra\"",
+      "type": "Platoon",
+      "leader": {
+        "callsign": "Hydra-Actual",
+        "name": "Lt. 'Sable' Monroe",
+        "role": "Platoon Commander"
+      },
+      "comms": {
+        "primary": "60.0",
+        "secondary": "60.5",
+        "notes": "SBS platoon net"
+      },
+      "description": "SBS element for maritime assault, interdiction, and coastal reconnaissance.",
+      "tasks": [
+        "Maritime assault",
+        "VBSS",
+        "Coastal recon",
+        "Water insert/extract"
+      ],
+      "children": [
+        {
+          "id": "TRIDENT_1SQD",
+          "name": "SBS 1st Squad \"Trident\"",
+          "type": "Squad",
+          "leader": {
+            "callsign": "Trident-1",
+            "name": "Sgt. 'Anchor' Webb",
+            "role": "Squad Leader"
+          },
+          "comms": {
+            "primary": "60.1",
+            "secondary": "60.6",
+            "notes": "Squad net (SR)"
+          },
+          "description": "Maritime assault squad with emphasis on stealth insertions and rapid boarding actions.",
+          "tasks": [
+            "Boarding",
+            "Coastal assault",
+            "Perimeter security",
+            "Demolitions"
+          ],
+          "children": [
+            {
+              "id": "TRI_AFT",
+              "name": "Alpha Fireteam",
+              "type": "Fireteam",
+              "leader": {
+                "callsign": "TR-A1",
+                "name": "Cpl. 'Nautilus' Gray",
+                "role": "Team Leader"
+              },
+              "comms": {
+                "primary": "343 Ch 1",
+                "secondary": "343 Ch 2",
+                "notes": "TFAR SR team comms"
+              },
+              "description": "Primary boarding team.",
+              "tasks": [
+                "Breach",
+                "Clear decks",
+                "Secure hostiles"
+              ],
+              "children": []
+            },
+            {
+              "id": "TRI_BFT",
+              "name": "Bravo Fireteam",
+              "type": "Fireteam",
+              "leader": {
+                "callsign": "TR-B1",
+                "name": "Cpl. 'Harbor' Quinn",
+                "role": "Team Leader"
+              },
+              "comms": {
+                "primary": "343 Ch 3",
+                "secondary": "343 Ch 4",
+                "notes": "TFAR SR team comms"
+              },
+              "description": "Support and security team.",
+              "tasks": [
+                "Overwatch",
+                "Security",
+                "Rear guard"
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "HEIMDALL_SRR",
+      "name": "SRR Squad \"Heimdall\"",
+      "type": "Squad",
+      "leader": {
+        "callsign": "Heimdall-1",
+        "name": "SSgt. 'Lynx' Sutherland",
+        "role": "Squad Leader"
+      },
+      "comms": {
+        "primary": "52.0",
+        "secondary": "52.5",
+        "notes": "Recon net"
+      },
+      "description": "Special Reconnaissance Regiment unit providing ISR, target acquisition, and infiltration.",
+      "tasks": [
+        "Recon",
+        "ISR",
+        "Target marking",
+        "Route scouting"
+      ],
+      "children": [
+        {
+          "id": "HEIM_AFT",
+          "name": "Alpha Fireteam",
+          "type": "Fireteam",
+          "leader": {
+            "callsign": "HM-A1",
+            "name": "Cpl. 'Kite' Armitage",
+            "role": "Team Leader"
+          },
+          "comms": {
+            "primary": "343 Ch 1",
+            "secondary": "343 Ch 2",
+            "notes": "SR"
+          },
+          "description": "ISR / spotter element.",
+          "tasks": [
+            "Observation",
+            "Target marking",
+            "Comms relay"
+          ],
+          "children": []
+        },
+        {
+          "id": "HEIM_BFT",
+          "name": "Bravo Fireteam",
+          "type": "Fireteam",
+          "leader": {
+            "callsign": "HM-B1",
+            "name": "Cpl. 'Echo' Merrick",
+            "role": "Team Leader"
+          },
+          "comms": {
+            "primary": "343 Ch 3",
+            "secondary": "343 Ch 4",
+            "notes": "SR"
+          },
+          "description": "Security and maneuver element.",
+          "tasks": [
+            "Security",
+            "Infiltration",
+            "Counter-recon"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "SIERRA_RAF",
+      "name": "RAF Detachment \"Sierra\"",
+      "type": "Detachment",
+      "leader": {
+        "callsign": "Sierra-1",
+        "name": "Flt Lt. 'Vector' Shaw",
+        "role": "Detachment Lead / JTAC"
+      },
+      "comms": {
+        "primary": "75.0",
+        "secondary": "75.5",
+        "notes": "Air net (LR)"
+      },
+      "description": "Fixed/rotary support, CAS coordination, and JTAC integration.",
+      "tasks": [
+        "JTAC",
+        "CAS coordination",
+        "Helicopter insert/extract",
+        "MEDEVAC"
+      ],
+      "children": []
+    }
+  ]
+}

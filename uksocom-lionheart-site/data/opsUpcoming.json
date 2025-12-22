@@ -1,0 +1,28 @@
+[
+  {
+    "id": "op-iron-harbor",
+    "title": "Operation Iron Harbor",
+    "datetimeIso": "2026-01-10T20:00:00Z",
+    "map": "Altis",
+    "faction": "UKSF vs. Syndicate",
+    "brief": "Night raid on coastal weapons caches. SBS maritime insertion with SAS follow-on assault.",
+    "requirements": [
+      "ACE3",
+      "TFAR",
+      "Night-capable loadout"
+    ]
+  },
+  {
+    "id": "op-snowglass",
+    "title": "Operation Snowglass",
+    "datetimeIso": "2026-01-17T20:00:00Z",
+    "map": "Chernarus (placeholder)",
+    "faction": "UKSF vs. Insurgents",
+    "brief": "SRR recon to locate HVT convoy; coordinated interdiction with air support.",
+    "requirements": [
+      "ACE3",
+      "TFAR",
+      "Map tools"
+    ]
+  }
+]

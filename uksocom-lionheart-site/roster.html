@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Roster • UKSOCOM Lionheart Company</title>
+  <meta name="description" content="UKSOCOM Lionheart Company — Arma 3 milsim unit portal: ORBAT, roster, loadouts, operations, SOP, recruitment." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="assets/css/print.css" media="print" />
+</head>
+<body data-page="roster">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header id="site-header"></header>
+
+  <div class="page-shell">
+    <nav id="breadcrumb" class="breadcrumb" aria-label="Breadcrumb"></nav>
+    
+<main id="main" class="container">
+  <header class="page-header">
+    <h1>Roster</h1>
+    <p class="muted">Search + filter members. Toggle between table and cards.</p>
+  </header>
+
+  <section class="toolbar" aria-label="Roster controls">
+    <label class="field field--grow">
+      <span class="field__label">Search</span>
+      <input id="roster-search" type="search" placeholder="Callsign, role, qualification..." autocomplete="off" />
+    </label>
+
+    <label class="field">
+      <span class="field__label">Squad</span>
+      <select id="filter-squad"></select>
+    </label>
+
+    <label class="field">
+      <span class="field__label">Role</span>
+      <select id="filter-role"></select>
+    </label>
+
+    <label class="field">
+      <span class="field__label">Status</span>
+      <select id="filter-status"></select>
+    </label>
+
+    <label class="field">
+      <span class="field__label">Qualification</span>
+      <select id="filter-qual"></select>
+    </label>
+
+    <div class="toggle" role="group" aria-label="View toggle">
+      <button class="btn btn-ghost btn-sm" id="view-table" type="button" aria-pressed="true">Table</button>
+      <button class="btn btn-ghost btn-sm" id="view-cards" type="button" aria-pressed="false">Cards</button>
+    </div>
+  </section>
+
+  <section class="results-meta" aria-live="polite">
+    <span id="roster-count">0 members</span>
+    <button class="btn btn-ghost btn-sm" id="roster-clear" type="button">Clear filters</button>
+  </section>
+
+  <section id="roster-table-wrap" class="card">
+    <div class="table-scroll" tabindex="0" aria-label="Roster table (scrollable)">
+      <table class="table" id="roster-table">
+        <thead>
+          <tr>
+            <th>Callsign</th>
+            <th>Rank</th>
+            <th>Role</th>
+            <th>Squad</th>
+            <th>Qualifications</th>
+            <th>Timezone</th>
+            <th>Status</th>
+            <th>Joined</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="roster-cards-wrap" class="grid-3" hidden></section>
+</main>
+
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <strong>UKSOCOM Lionheart Company</strong>
+          <div class="muted">Static unit site • No tracking • No external assets</div>
+        </div>
+        <div class="footer-actions">
+          <button class="btn btn-ghost" id="to-top" type="button" title="Back to top">↑ Top</button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js" type="module"></script>
+  <script src="assets/js/roster.js" type="module"></script>
+</body>
+</html>
